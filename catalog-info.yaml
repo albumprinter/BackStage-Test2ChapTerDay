@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-2-backstage
+  description: asdfasdfa
+  annotations: 
+    github.com/project-slug: albumprinter/BackStage-Test2ChapTerDay
+    backstage.io/source-ref: "https://github.com/albumprinter/BackStage-Test2ChapTerDay"
+    backstage.io/techdocs-ref: url:https://github.com/albumprinter/BackStage-Test2ChapTerDay
+    backstage.io/github-actions-id: https://github.com/albumprinter/BackStage-Test2ChapTerDay
+spec:
+  type: service
+  lifecycle: experimental
+  owner: albumprinter
